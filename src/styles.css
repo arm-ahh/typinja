@@ -22,6 +22,8 @@ body {
     border-radius: 4px;
 }
 
+.key::after { content: attr(id) }
+
 .key-space {
     width: 280px;
     height: 40px;
